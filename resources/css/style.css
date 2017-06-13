@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  color: seashell;
+}
+head{
+  background-color: black;
+}
+.menu-container{
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  padding: 10px 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  }
+.menu{
+  width: 1350px;
+  height: 99px;
+  display:flex;
+  justify-content: space-between;
+  }
+.logo{
+  color: seashell;
+  justify-content: flex-start;
+    height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  display: inline-block;
+}
+.links{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-decoration: underline;
+  padding-right: 20px;
+}
+.location{
+  display: flex;
+  margin-left: 20px;
+}
+.feautured-tea{
+  display: flex;
+  margin-left: 20px;
+}
+.box-container{
+  display: flex;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  padding: 10px 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  }
+.main-box{
+  display:flex;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 600px;
+}
+.box{
+  width: 800px;
+  justify-content: center;
+  align-items:center;
+  background-color: black;
+  text-align: center;
+  }
+.header{
+  display: flex;
+  font-family: Helvetica;
+  opacity: 0.9;
+  padding: 10px 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+  .text{
+    width: 800px;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+    text-align: center;
+  }
+  .photo-grid-container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.9;
+    }
+  .photo-grid{
+  width: 800px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  border: 5px solid red;
+    }
+.photo-grid-item{
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  }
