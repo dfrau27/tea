@@ -110,6 +110,13 @@ head{
     }
 .photo-grid-item{
   border: 1px solid white;
-  width: 100px;
   height: 100px;
   }
+.firstphoto{
+  display: flex;
+  width:600px;
+}
+.secondphoto{
+  display: flex;
+  width:600px;
+}
